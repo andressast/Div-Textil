@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylefaleconosco.css">
+  <title>Fale conosco</title>
+</head>
+
+<body id="topo">
+  <header>
+    <div id="conteiner1">
+      <div id="c1_filho1"> <img id="logo" src="./Imagens/logo.png" alt="Logo Div Textil"> </div>
+
+      <div id="c1_filho2">
+        <form action="/pagina-processa-dados-do-form" method="post">
+          <input type="text" placeholder="Pesquisar">
+          <button id="BotaoBuscar">Buscar</button>
+        </form>
+      </div>
+    </div>
+
+    <nav>
+      <ul id="conteiner2">
+        <li><a href="Index.html" target="_blank">Home</a></li>
+        <li><a href="#" target="_blank">Produtos</a></li>
+        <li><a href="#" target="_blank">Sobre</a></li>
+        <li><a href="#" target="_blank">Parceiros</a></li>
+        <li><a href="#" target="_blank">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h2>Entre em contato pelos nossos canais de comunicação</h2>
+  <h4>Horário de atendimento: de segunda à sexta-feira, das 8h às 18h. Sábados das 8h às 12h.</h4>
+
+  <section class="container1">
+
+    <div class="item">
+
+      <div id="retanguloformfaleconosco">
+        <div id="formfaleconosco">
+          <form class="formulario" autocomplete="off">
+            <h4>Fale conosco</h4>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" /><br>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" /><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" /><br>
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" /><br>
+
+            <div class="opcao">
+
+              <select name="assunto">
+                <option value="" disabled selected>Escolha o assunto</option>
+                <option value="duvidas">Dúvidas</option>
+                <option value="sugestoes">Sugestões</option>
+                <option value="pedidospagtos">Pedidos e pagamentos</option>
+                <option value="colaborador">Quero ser um colaborador</option>
+
+              </select>
+            </div>
+
+            <label for="msg">Mensagem:</label><textarea></textarea>
+
+            <div class="button">
+
+              <button type="reset">Limpar</button>
+              <button type="submit">Enviar</button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+      <div id="retdesignfc"></div>
+    </div>
+
+    <div class="item">
+      <div id="retangulomapa">
+        <div id="mapa">
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.302367056457!2d-46.688518685187915!3d-23.59348658466696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5746406ee8f7%3A0x32bbd06ffc892321!2sSoul%20Code%20Academy!5e0!3m2!1spt-BR!2sbr!4v1627664671371!5m2!1spt-BR!2sbr"
+            width=100% height=50% style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+
+          <ul id="endereco">
+            <li class="infosendereco"><img src="./Imagens/001-location.png"></a>Rua Helena, 235 - Vila Olímpia - São Paulo/SP</li>
+            <li class="infosendereco"><img src="./Imagens/004-call.png"></a>+55 (11) 99111-2073</li>
+            <li class="infosendereco"><img src="./Imagens/002-email.png"></a>contato@divtextil.com
+            </li>
+            <li class="infosendereco"><img src="./Imagens/003-globe.png"></a>www.divtextil.com</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container2">
+    <div class="itemc2">
+      <div id="retanguloorcamento">
+        <div id="orcamento">
+          <form class="formulario" autocomplete="off">
+
+            <h4>Solicite um orçamento</h4>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel">
+
+            <label for="endereco">Empresa:</label>
+            <input type="text" id="nome" />
+
+            <div class="checkbox">
+              Escolha os tecidos:<br>
+              <input type="checkbox" id="alfaiataria" name="alfaiataria">
+              <label for="alfaiataria">Alfaiataria</label>
+
+              <input type="checkbox" id="fibras" name="fibras">
+              <label for="fibras">Fibras naturais e viscose</label>
+
+              <input type="checkbox" id="veludos" name="veludos">
+              <label for="veludos">Veludos</label>
+
+              <input type="checkbox" id="esportivos" name="esportivos">
+              <label for="esportivos">Esportivos</label>
+
+            </div>
+
+            <label for="msg">Descrição dos produtos:</label>
+            <textarea id="msg"></textarea>
+
+            <div class="button">
+
+              <button type="reset">Limpar</button>
+              <button type="submit">Enviar</button>
+
+
+            </div>
+          </form>
+        </div>
+        <div id="retdesignfc3"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div>© Copyright Div Têxtil</div>
+    <div>
+      <a href="https://web.whatsapp.com/" target="_blank"><img class="ImgFooter" src="./Imagens/whatsapp.png"
+          alt="Whatsapp"></a>
+      <a href="https://www.instagram.com/focustextil/" target="_blank"><img class="ImgFooter"
+          src="./Imagens/instagram.png"
+          alt="Instagram"></a>
+      <a href="https://www.youtube.com/channel/UCpss_g8Zej-gsYbBtpSJi_w" target="_blank"><img class="ImgFooter"
+          src="./Imagens/youtube.png" alt="YouTube"></a>
+    </div>
+    <a href="#topo"><img class="ImgFooter" src="./Imagens/botao-voltar.png" alt="Voltar ao topo"></a>
+  </footer>
+
+</body>
+
+</html>
